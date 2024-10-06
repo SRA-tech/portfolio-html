@@ -6,22 +6,111 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <!-- Section: Intro-->
-    <header>
-        <h2>Syed Reaz Ahmed</h2>
-        <p><h3>Sr. Automation Engineer and Software Developer</h3></p> 
+    <!-- Section: Navigation or Nav Bar-->
+    <nav>
+        <ul>
+            <li>
+                <a href="#about" title="About Me">About</a>
+            </li>
+            <li>
+                <a href="#skills" title="My Skills">My Skills</a>
+            </li>
+            <li>
+                <a href="#projects" title="My Projects">My Projects</a>
+            </li>
+            <li>
+                <a href="#contact" title="Contact Me">Contact</a>
+            </li>
+        </ul>
+    </nav>
+<!-- Section: Intro-->
+    <header id="intro">
+        <h1>Syed Reaz Ahmed</h1>
+        <p><em>Sr. Automation Engineer and Software Developer</em></p> 
         <hr />
+        <img src="./images/photo.jpg" alt="Syed R Ahmed" title="Syed Reaz Ahmed" hight="150" width="100">
     </header>
-
-<div>
-    <p>Hello</p>
-</div>
-
-    <!-- Section: About me-->
+<!-- Section: About me-->
+    <section id="about">
+        <h2>About Me</h2>
+        <p><b>Experience:</b> 8 years in Automation Engineering</p>
+        <p><strong>Experience:</strong> 1 year in Web Development</p>
+        <p><strong>Education:</strong> Bachelor's Of Computer Science</p>
+    </section>
     
-    <!-- Section: Skills-->
-    
-   <p>First Line <br/> Second Line</p>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Technology</th>
+                <th>Proficiency</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Intermediate</td>
+            </tr>
+        </tbody>
+        </thead>
+    </table>
+<!-- Section: Skills-->
+    <section id="skills">
+        <ul>
+        <h2>Skills</h2>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>
+            JavaScript
+            <ul>
+                <li>React.JS</li>
+                <li>Anguler.js</li>
+                <li>Express.js</li>
+                <li>Node.js</li>
+            </ul>
+        </li>
+        <li>MongoDB</li>
+        <li>TypeScript</li>
+        </ul>
+        <dl>
+           <dt>HTML</dt>
+           <dd>Hyper Text Markup Language</dd>
+        </dl>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ol>
+            <!--Absulote Link in the list with new page will be open-->
+            <li><a target="_blank" href="https://github.com/SRA-tech/portfolio-html">Portfolio Website</a></li>
+            <li>Blog</li>
+            <li>E-commerce</li>
+        </ol>
+    </section>
+    <!-- Section: Contacts-->
+     <section id="contact">
+        <h2>Contact Me</h2>
+     </section>
+     <!-- Section: Footer-->
+      <footer>
+        <p>Copyright reserved by SR Ahmed2024</p>
+        <ol>
+            <ul>
+                <li>
+                    <a href="tel:8178127747">Call Me</a>
+                </li>
+                <li>
+                    <a href="mailto:sreaz_ahmed@yahoo.com">Email Me</a>
+                </li>  
+            </ul>
+        </ol>
+    </footer>
+   
 </body>
 </body>
 </html>
