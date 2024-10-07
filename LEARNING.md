@@ -36,8 +36,10 @@
 - Semantic HTML Tags - header, footer, section, main, form, table
 - Non-Semantic HTML tags - div, span
 - <div></div> element kept in divition tag
-
-10. Text formatting tags
+10. Entity
+- Symbol (&copy;(Copyright)), Emoji, Logo etc
+- Unicode: https://symbl.cc/en/unicode-table/
+11. Text formatting tags
 - <strong>Bold Text</strong> and
 - <b>Bold Text</b>
 - <em>Italic Text</em>
@@ -46,20 +48,20 @@
 - <del>Bold Text</del> <br />
 - (a+b)<sup>2</sup>
 - (H20)<sub>2</sub>
-11. List: OrderList(ol tag), Un-OrderList(ul Tag), 
+12. List: OrderList(ol tag), Un-OrderList(ul Tag), 
 - To change the order list use type = "type of"
 - <ol type= "A" or "a"><li>List Item</li></ol> (Default 1,2,)
 - <ol start= "E" or "5"><li>List Item</li></ol> (reversed, Circle) 
 - <ul start= "E" or "5"><li>List Item</li></ul> (reversed)
-12. Nested List:
-13. Definition under dl tag dt(title), dd(defination)
+13. Nested List:
+14. Definition under dl tag dt(title), dd(defination)
 -   <dl><dt>HTML</dt><dd>Hyper Text Markup Language</dd></dl>
-14. Link and Navigation
+15. Link and Navigation
 - Absolute link vs Relative link
 - a tag, href(Hyper Text Reference), 
 - target(Open a new child page), or "target"="_self", "_parant", _top
 - title: Use for Hover toast
-15. Image 
-16. Basic Table
-17. Form
-18. Deploy
+16. Image 
+17. Basic Table
+18. Basic Form
+19. Deploy
