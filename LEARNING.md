@@ -65,3 +65,21 @@
 17. Basic Table
 18. Basic Form
 19. Deploy
+
+*** Intermediate ***
+1. Mata tag and SEO
+- Meta tag used for to help search engine optimization
+2. Adding font-awesome icons google font
+- By default font (Sensiri)
+- https://fontawesome.com/
+- CDN https://cdnjs.com/libraries/font-awesome
+- Body color use head tag->style tag->body->{choose color} 
+- Font style: https://fonts.google.com/
+- head tag -> google font link
+- style tag -> body-> {font-family: "Roboto", sans-serif;}
+- above two are in bundle to use google font, have to declare font-family also
+3. Advanced table
+4. Advanced form
+5. Form data send to your email
+6. Multimedia
+8. html5 elements
