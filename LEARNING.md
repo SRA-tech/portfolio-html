@@ -79,6 +79,7 @@
 - style tag -> body-> {font-family: "Roboto", sans-serif;}
 - above two are in bundle to use google font, have to declare font-family also
 3. Advanced table
+- row span(A value combindly show in multiple rows)
 4. Advanced form
 5. Form data send to your email
 6. Multimedia
