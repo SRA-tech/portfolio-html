@@ -82,5 +82,9 @@
 - row span(A value combindly show in multiple rows)
 4. Advanced form
 5. Form data send to your email
+- https://formspree.io/forms endPoint: https://formspree.io/f/mlderkop
 6. Multimedia
+- i-frame src"google map address" alter width and hight etc. 
 8. html5 elements
+- https://www.tutorialrepublic.com/html-reference/html5-tags.php
+- Progress bar etc
