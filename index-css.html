@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Syed Reaz Ahmed">
+    <meta name="keywords" content="portfolio, Senior Automation Engineer, Syed Reaz Ahmed">
+    <title>My Portfolio</title>
+    <!--font-awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+    wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,
+    500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Inline CSS-->
+    <header style="background-color: goldenrod;">
+        <!-- Section: Navigation or Nav Bar-->
+    <nav >
+        <ul>
+            <li>
+                <a href="#about" title="About Me">About</a>
+            </li>
+            <li>
+                <a href="#skills" title="My Skills">My Skills</a>
+            </li>
+            <li>
+                <a href="#projects" title="My Projects">My Projects</a>
+            </li>
+            <li>
+                <a href="#contact" title="Contact Me">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <mark>
+        <h3 id="note-text" class="note">Please Note: This website is in progress...</h3>
+    </mark>
+    <main>
+    <!-- Section: Intro-->
+    <section id="intro">
+        <h1 id="title-id" class="title">Syed Reaz Ahmed</h1>
+        <h4><p><em>Sr. Automation Engineer and Software Developer</em></p></h4>
+        <hr/>
+        <img src="./images/passport_photo.jpg" alt="Syed-R-Ahmed" title="Syed Reaz Ahmed" hight="300" width="150">
+    </section>
+    <!-- Section: About me-->
+    <section id="about">
+        <h2>About Me</h2>
+        <p><b>Experience:</b> 8 years in Automation Engineering</p>
+        <p><strong>Experience:</strong> 1 year in Web and Mobile Development</p>
+        <p><strong>Education:</strong> Bachelor's Of Computer Science</p>
+    </section>
+    <!-- Section: Skills-->
+    <table>
+        <thead>
+            <tr>
+                <th>Technology</th>
+                <th>Field</th>
+                <th>Proficiency</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Selenium</td>
+                    <td>User-Interface</td>
+                    <td>Expert</td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ol>
+            <!--Absulote Link in the list with new page will be open-->
+            <li><a target="_blank" href="https://github.com/SRA-tech/portfolio-html">Portfolio Website</a></li>
+            <li>Blog</li>
+            <li>E-commerce</li>
+        </ol>
+    </section>
+    <!-- Section: Contacts-->
+     <section id="contact">
+        <h2>Contact Me</h2>
+        <div>
+            <label for="subject">Subject: </label>
+        <select name="subject" id="subject">
+            <option value="inquiry">Inquary</option>
+            <option value="feedback">Feedback</option>
+            <option value="job">Job Opportunity</option>
+        </select>
+        </div>
+        <form action="https://formspree.io/f/mlderkop" method="POST" >
+            <>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="firstName">First Name:</label>
+                <input name="firstName" id="firstName" type="text" 
+                autocomplete="given-name" required/>
+                </div>
+                <div>
+                    <label for="lastName">Last Name:</label>
+                <input name="lastName" id="lastName" type="text" 
+                autocomplete="family-name"required/>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                <input name="email" id="email" type="email" 
+                autocomplete="off" />   
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" 
+                    min="18" max="55" required />
+                </div>
+                <div>
+                    <span>Choose Gender</span>
+                    <input type="radio" id="male" name="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="female" value="female">
+                    <label for="female">female</label>
+                </div>
+            <fieldset>
+                <div>
+                    <label for="resume">Upload Resume</label>
+                    <input type="file" id="resume", name="resume"
+                    pattern="https?://.+" />
+                </div> 
+            </fieldset>
+            <fieldset>
+                <legend>Message Me</legend>
+                <div>
+                    <label for="message">Post your message here: </label>
+                <textarea name="message" id="message"
+                    cols="21" rows="7"></textarea>
+                </div>
+            </fieldset>
+            <div>
+                <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+            </div>
+        </form>
+     </section>
+    </main>    
+    <!-- Section: Footer-->
+      <footer>
+        <p>Copyright reserved by &copy; Syed Reaz Ahmed2024</p>
+        <p>Developed with &hearts;&hearts;</p>
+        <a href="tel:8178127747">✆Call Me</a>
+        <a href="mailto:reazjz4@gmail.com">✉Email Me</a>
+
+        <div>
+            <h3>Follow Me</h3>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=61558165080185" 
+                    target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/syed-ahmed-a8061419a" 
+                    target="_blank"><i class="fa-brands fa-linkedin"></i> linkedin</a>
+                </li>
+                <li>
+                    <a href="https://x.com/home" target="_blank"><i class="fa-brands fa-x-twitter"></i> x-twitter</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14608.12149615779!2d90.35714829605699!3d23.
+            746296246078685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+            1!3m3!1m2!1s0x3755b8b346e82523%3A0x7a53eb89f2c8fddd!
+            2sDhanmondi%20Lake!5e0!3m2!1sen!2sus!4v1728533506053!5m2!1sen!2sus" title="home" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </footer>
+</body>
+</html>

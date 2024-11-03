@@ -7,12 +7,10 @@
     <meta name="author" content="Syed Reaz Ahmed">
     <meta name="keywords" content="portfolio, Senior Automation Engineer, Syed Reaz Ahmed">
     <title>My Portfolio</title>
-
     <!--font-awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <!--google font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,20 +42,17 @@
         </ul>
     </nav>
     </header>
-    
     <mark>
         <h3>Please Note: This website is in progress...</h3>
     </mark>
-
     <main>
-        <!-- Section: Intro-->
+    <!-- Section: Intro-->
     <section id="intro">
         <h1>Syed Reaz Ahmed</h1>
         <p><em>Sr. Automation Engineer and Software Developer</em></p> 
         <hr />
-        <img src="./images/passport_photo.jpg" alt="Syed R Ahmed" title="Syed Reaz Ahmed" hight="300" width="150">
+        <img src="./images/passport_photo.jpg" alt="Syed-R-Ahmed" title="Syed Reaz Ahmed" hight="300" width="150">
     </section>
-
     <!-- Section: About me-->
     <section id="about">
         <h2>About Me</h2>
@@ -65,7 +60,6 @@
         <p><strong>Experience:</strong> 1 year in Web and Mobile Development</p>
         <p><strong>Education:</strong> Bachelor's Of Computer Science</p>
     </section>
-    
     <!-- Section: Skills-->
     <section id="skills">
         <h2>Skills</h2>
@@ -204,7 +198,7 @@
                 <tr>
                     <td>WebdriverIO</td>
                     <td>UI/Mobile</td>
-                    <td rowspan="5">Advanced</td>
+                    <td rowspan="6">Advanced</td>
                 </tr>
                 <tr>
                     <td>Rest Assured</td>
@@ -223,13 +217,13 @@
                     <td>Data Reporting</td>
                 </tr>
                 <tr>
+                    <td>MS Office</td>
+                    <td>Tasks</td>
+                </tr>
+                <tr>
                     <td>Hadoop</td>
                     <td>Data Engineering</td>
                     <td>Intermediate</td>
-                </tr>
-                <tr>
-                    <td>MS Office</td>
-                    <td>Advanced</td>
                 </tr>
             </tbody>
             </thead>
@@ -283,8 +277,7 @@
                 </tr>
             </tbody>
             </thead>
-        </table>
-       
+        </table>      
        <div>
         <h3>Skill Progress</h3>
         <div>
@@ -374,7 +367,6 @@
         </thead>
     </table>
     </section>
-    
     <section id="projects">
         <h2>Projects</h2>
         <ol>
@@ -384,7 +376,6 @@
             <li>E-commerce</li>
         </ol>
     </section>
-
     <section>
         <h3>At Disney World</h3>
         <video width="250" height="150" controls 
@@ -402,48 +393,85 @@
         </select>
         </div>
         <form action="https://formspree.io/f/mlderkop" method="POST" >
-            <div>
-                <label for="name">Your First Name: </label>
-            <input type="text" id="name" name="name" required/>
-            </div>
-            <div>
-                <label for="name">Your Last Name: </label>
-            <input type="text" id="name" name="name" required/>
-            </div>
-            
-            <div>
-                <label for="email">Your Email: </label>
-            <input type="email" id="email" name="email" required/>
-            </div>
-            <div>
-                <label for="age">Age</label>
-                <input type="number" id="age" name="age" 
-                min="18" max="55" required />
-            </div>
-            <div>
-                <label for="website">Website</label>
-                <input type="url" id="website", name="website"
-                pattern="https?://.+" />
-            </div> 
-            <div>
-                <label for="resume">Upload Resume</label>
-                <input type="file" id="resume", name="resume"
-                pattern="https?://.+" />
-            </div> 
-            
-            <div>
-                <label for="message">Message: </label>
-            <textarea name="message" id="message"
-                cols="21" rows="7"></textarea>
-            </div>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="firstName">First Name:</label>
+                <input name="firstName" id="firstName" type="text" 
+                autocomplete="given-name" required/>
+                </div>
+                <div>
+                    <label for="lastName">Last Name:</label>
+                <input name="lastName" id="lastName" type="text" 
+                autocomplete="family-name"required/>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                <input name="email" id="email" type="email" 
+                autocomplete="off" />   
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" 
+                    min="18" max="55" required />
+                </div>
+                <div>
+                    <span>Choose Gender</span>
+                    <input type="radio" id="male" name="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="female" value="female">
+                    <label for="female">female</label>
+                </div>
+                    
+                <div>
+                    <label for="favorite">Favorite Color</label>
+                    <input type="color" id="favorite" name="favorite" value="#ff0000">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Experiece and other info:</legend>
+                <div>
+                    <label for="experience">Experience Years</label>
+                    <input type="range" id="experience" name="experience" min="0" max="10" required>
+                </div>
+                <div>
+                    <label for="programming">Favorite Programming</label>
+                    <input list="language" id="programming" name="programming" 
+                    autocomplete="programming-list"/>
+                    <datalist id="language">
+                        <option value="C">
+                        <option value="C++">
+                        <option value="Python">
+                        <option value="Java">
+                        <option value="JavaScript">
+                    </datalist>
+                </div>
+                <div>
+                    <label for="website">Website</label>
+                    <input type="url" id="website", name="website"
+                    pattern="https?://.+" />
+                </div> 
+                <div>
+                    <label for="resume">Upload Resume</label>
+                    <input type="file" id="resume", name="resume"
+                    pattern="https?://.+" />
+                </div> 
+            </fieldset>
+            <fieldset>
+                <legend>Message Me</legend>
+                <div>
+                    <label for="message">Post your message here: </label>
+                <textarea name="message" id="message"
+                    cols="21" rows="7"></textarea>
+                </div>
+            </fieldset>
             <div>
                 <button type="submit">Submit</button>
             <button type="reset">Clear</button>
             </div>
         </form>
      </section>
-    </main>
-     
+    </main>    
     <!-- Section: Footer-->
       <footer>
         <p>Copyright reserved by &copy; Syed Reaz Ahmed2024</p>

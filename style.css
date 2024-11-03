@@ -1,0 +1,77 @@
+
+:root{--primary-color:#4caf50; 
+    --secondary-color:#fff; 
+    --background-color: #f4f4f4;
+}
+/*body starts here*/
+body{
+    background-color: #f4f4f4;
+    color: #333;
+}
+h2, h3{
+    color: #4caf50;
+}
+h1{
+    background-color:gray;
+}
+.title{
+    background-color: red;
+}
+#title-id{
+    background-color: blueviolet;
+}
+/*Notes*/
+h3{
+    background-color: yellow;
+    color: red;
+}
+/*button starts here*/
+button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+button:hover{
+    background-color: #45a049;
+}
+h1::first-line{
+    background-color: red;
+}
+/*button ends here*/
+input{
+
+}
+select{
+
+}
+textarea{
+
+}
+/*body ends here*/
+
+/*header starts here*/
+header{
+    background-color: #4caf50;
+    color: #fff;
+}
+nav ul{
+
+}
+nav ul li{
+
+}
+nav ul li a{
+    color: #fff;
+
+}
+/*header ends here*/
+
+/*main starts here*/
+/*main ends here*/
+
+/*footer starts here*/
+footer{
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+/*footer ends here*/
+
