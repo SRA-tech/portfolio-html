@@ -162,7 +162,8 @@ b. Key point: Code optimized, more readable, and easy maintainable
 /* b=number of class, psedue class, attributes*/, 
 /* c=number of elments, psedue elements*/
 
-5. Typography
+5. Typography--> Use for Font p{font-size:2rem; font-weight: bold; font-style: italic; font-family: ''Roboto', sans-serif;}
+
 6. Box Model
 7. Backgroud properties
 8. Basic layout - float, positioning
