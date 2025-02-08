@@ -26,7 +26,7 @@
     <nav >
         <ul>
             <li>
-                <a href="#about" title="About Me">About</a>
+                <a href="#about" title="About Me">About Me</a>
             </li>
             <li>
                 <a href="#skills" title="My Skills">My Skills</a>
@@ -46,36 +46,42 @@
     <main>
     <!-- Section: Intro-->
     <section id="intro">
-        <h1 id="title-id" class="title">Syed Reaz Ahmed</h1>
+        <div class="class"><h1>Syed Reaz Ahmed</h1>
         <h4><p><em>Sr. Automation Engineer and Software Developer</em></p></h4>
-        <hr/>
-        <img src="./images/passport_photo.jpg" alt="Syed-R-Ahmed" title="Syed Reaz Ahmed" hight="300" width="150">
+        <img src="./images/passport_photo.jpg" alt="Syed-R-Ahmed" 
+        title="Syed Reaz Ahmed" hight="300" width="150">
+        </div>
     </section>
+    
     <!-- Section: About me-->
-    <section id="about">
+    <section id="about" class="card">
         <h2>About Me</h2>
         <p><b>Experience:</b> 8 years in Automation Engineering</p>
         <p><strong>Experience:</strong> 1 year in Web and Mobile Development</p>
         <p><strong>Education:</strong> Bachelor's Of Computer Science</p>
     </section>
+    
     <!-- Section: Skills-->
-    <table>
-        <thead>
-            <tr>
-                <th>Technology</th>
-                <th>Field</th>
-                <th>Proficiency</th>
-            </tr>
-            <tbody>
+    <section id="skills" class="card"><h2>Skills</h2>
+        <table>
+            <thead>
                 <tr>
-                    <td>Selenium</td>
-                    <td>User-Interface</td>
-                    <td>Expert</td>
+                    <th>Technology</th>
+                    <th>Field</th>
+                    <th>Proficiency</th>
                 </tr>
-            </tbody>
-        </thead>
-    </table>
-    <section id="projects">
+                <tbody>
+                    <tr>
+                        <td>Selenium</td>
+                        <td>User-Interface</td>
+                        <td>Expert</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    </section>
+    
+    <section id="projects" class="card">
         <h2>Projects</h2>
         <ol>
             <!--Absulote Link in the list with new page will be open-->
@@ -83,20 +89,21 @@
             <li>Blog</li>
             <li>E-commerce</li>
         </ol>
+    
     </section>
     <!-- Section: Contacts-->
-     <section id="contact">
+    
+    <section id="contact" class="card">
         <h2>Contact Me</h2>
         <div>
-            <label for="subject">Subject: </label>
-        <select name="subject" id="subject">
-            <option value="inquiry">Inquary</option>
-            <option value="feedback">Feedback</option>
-            <option value="job">Job Opportunity</option>
-        </select>
+                <label for="subject">Subject: </label>
+            <select name="subject" id="subject">
+                <option value="inquiry">Inquary</option>
+                <option value="feedback">Feedback</option>
+                <option value="job">Job Opportunity</option>
+            </select>
         </div>
         <form action="https://formspree.io/f/mlderkop" method="POST" >
-            <>
                 <legend>Personal Information</legend>
                 <div>
                     <label for="firstName">First Name:</label>
@@ -154,7 +161,7 @@
         <a href="tel:8178127747">✆Call Me</a>
         <a href="mailto:reazjz4@gmail.com">✉Email Me</a>
 
-        <div>
+        <div class="social-media">
             <h3>Follow Me</h3>
             <ul>
                 <li>

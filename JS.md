@@ -1,0 +1,40 @@
+# Basic JS
+- What is JS?
+- What are the ways to add JS
+-- Inline JS Example: html-->body--> <button onclick="alert('You have clicked me')">click me</button> 
+-- Internal JS Example: head--> <script>alert('Hello');</script>
+-- External JS Example: 
+- Setting up JS enviornment
+- Output: alert(0k), confirm(cancel, ok), console.log(print in the console)
+-- string literal print syntax console.log(`${value/variable}`)
+- Comment: Single line (//), Multi line (/* Code */)
+- Tokens: 
+--- Keywords : Inbuilt reserved words 
+--- Puncuators: , . * : ' " () {} [] <> ! ` ~ ? @ # $ % ^ & 
+--- Backslash Characters: \n(new line), \t(tab)
+- Variables is a container to store dynamically any value for reuse
+--- To declare a variable, have to use var/let/const keyword-->name-->=(operator)-->value
+-- String value: ('a'); / ("abc"); empty value(""); Example: var name = "Syed";
+-- Number value:  just number Example: var price = 1400;
+-- Boolean value: true or false Example: const require = true
+-- var: global scope, re-declare and re-assign possible (Old style)
+-- let: block scope, variable re-declare not possible, value re-assigne possible, 
+-- const: once declared, value re-assigne not possible
+- Data types (typeof value): 
+--- Number, 
+--- String, 
+--- Boolean, 
+--- Null: declared a variable with assigned empty value (Example: let age = null); 
+--- Undefined: declare a variable without define a value (Example: let x);
+--- Object
+- Operators
+-- Arithmetics: +(plus/concatination), -(substruct), *(times), /(divition), %(modulas/reminder)
+-- Assignment: =(Assigner), 
+-- Comparision: >(greater than), <less than), ==(), ===()
+-- Unary: only one operand (-, +, ++ increment by 1, -- dicrement by 1) -X is called unary minus x
+--- pre increment--> post increment-->
+-- Binary: more than one operand a + b
+-- Logical---> &&(and), ||(or), !(not)
+- Control Statements: if, else if, else, switch
+- loop control statement for, while, do while
+- for of and  for in
